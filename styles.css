@@ -1,0 +1,95 @@
+/* Google Font: Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Variables */
+
+:root {
+    /* UI Colors */
+    --white: hsl(0, 100%, 100%);
+    --purple-100: hsl(275, 100%, 97%);
+    --purple-600:hsl(292, 16%, 49%);
+    --purple-950:hsl(292, 42%, 14%);
+}
+
+/* Font Classes */
+.work-sans-400 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work-sans-600 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.work-sans-700 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* BODY */
+body {
+    background-color: var(--purple-100);
+    /* background-image: url(assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat; */
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN */
+
+main {
+    max-width: 375px;
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 80vh;
+    /* max-height: 80vh; */
+    align-content:center;
+    padding: 5%;
+}
+
+.faq-title {
+    display: flex;
+}
+
+h1 {
+    color: var(--purple-950);
+    padding: 5%;
+}
+
+.question-block {
+    border-bottom: 1px solid #B8AFBA;
+    padding: 5% 0;
+}
+
+.question-header {
+    display:flex;
+    justify-content:space-between;
+    padding: 5% 0;
+}
+
+.answer {
+    color: #B8AFBA;
+}
+
+h2 {
+    color: var(--purple-950);
+    font-size: 1.25rem;
+}
